@@ -1,0 +1,27 @@
+<html>
+<head>
+<title>Untitled Document</title>
+<script language="javascript">
+function check(){
+	var num=prompt("Enter Your Number");
+	prime=true;
+	for (var i=2;i<num;i++){
+		if(num% i==0){
+			prime =false;
+			break;
+			}
+		}
+	if (prime==false){
+		alert("Number is not prime");
+		}
+	else{
+		alert("Number is prime");
+		}		
+	}
+</script>
+</head>
+
+<body>
+<button onClick="check()">Check</button>
+</body>
+</html>
